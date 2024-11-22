@@ -1,0 +1,6 @@
+main():
+    a = 10
+    b = 20
+    resultado = a + b
+    std::cout << "El resultado de la suma es: " << resultado
+    endin

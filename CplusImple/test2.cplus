@@ -1,0 +1,9 @@
+main():
+    numero = 15
+    if (numero > 10):
+        std::cout << "El número es mayor que 10"
+    endin
+    else:
+        std::cout << "El número es menor o igual a 10"
+    endin
+endin

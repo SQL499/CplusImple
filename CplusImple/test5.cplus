@@ -1,0 +1,30 @@
+main():
+    sumEven = 0
+    sumOdd = 0
+    counter = 10
+
+    for (i = 1 | i <= 20 | 1):
+        temp = i / 2 * 2
+        if (temp == i):
+            sumEven = sumEven + i
+        endin
+        else:
+            sumOdd = sumOdd + i
+        endin
+    endin
+
+    while (counter > 0):
+        std::cout << "El contador es: " << counter
+        counter = counter - 1
+    endin
+
+    if (sumEven > sumOdd):
+        std::cout << "La suma de números pares es mayor."
+    endin
+    else:
+        std::cout << "La suma de números impares es mayor."
+    endin
+
+    std::cout << "La suma de números pares del 1 al 20 es: " << sumEven
+    std::cout << "La suma de números impares del 1 al 20 es: " << sumOdd
+endin

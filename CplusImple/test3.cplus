@@ -1,0 +1,9 @@
+main():
+    contador = 0
+    suma = 0
+    while (contador < 5):
+        suma = suma + contador
+        contador = contador + 1
+    endin
+    std::cout << "La suma de los números del 0 al 4 es: " << suma
+endin

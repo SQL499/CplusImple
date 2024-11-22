@@ -1,0 +1,8 @@
+main():
+    suma = 0
+    for (i = 1 | i <= 10 | 1):
+        suma = suma + i
+    endin
+    promedio = suma / 10
+    std::cout << "La suma es: " << suma << " y el promedio es: " << promedio
+endin

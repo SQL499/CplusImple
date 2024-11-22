@@ -1,0 +1,36 @@
+fibonacci(n):
+    if (n == 0):
+        result = 0
+    endin result
+    else:
+        if (n == 1):
+            result = 1
+        endin result
+        else:
+            temp1 = n - 1
+            temp2 = n - 2
+            fib1 = fibonacci(temp1)
+            fib2 = fibonacci(temp2)
+            result = fib1 + fib2
+        endin result
+    endin result
+endin result
+
+potencia(base, exponente):
+    result = 1
+    i = 0
+    for (i = 0 | i < exponente | 1):
+        result = result * base
+    endin
+endin result
+
+main():
+    numeroFib = 7
+    resultadoFib = fibonacci(numeroFib)
+    std::cout << "El número Fibonacci en posición " << numeroFib << " es: " << resultadoFib
+
+    base = 2
+    exponente = 5
+    resultadoPot = potencia(base, exponente)
+    std::cout << base << " elevado a la " << exponente << " es: " << resultadoPot
+endin
